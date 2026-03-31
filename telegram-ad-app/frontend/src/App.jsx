@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const tele = window.Telegram.WebApp;
-const BACKEND_URL = "https://your-backend.render.com"; // Change later
+const BACKEND_URL = "https://telegram-ad-app.onrender.com"; // Change later
 
 function App() {
   const [user, setUser] = useState(null);
@@ -24,8 +24,8 @@ function App() {
     setTimer(15);
     
     // Trigger Monetag Ad (Look for the function name in your Monetag script)
-    if (typeof show_1234567 === 'function') {
-      show_1234567(); 
+    if (typeof 10803501 === 'function') {
+      10803501(); 
     }
   };
 
